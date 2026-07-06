@@ -75,3 +75,61 @@ button:hover{
     color:#ff7a00;
     transform:translateY(-5px);
 }
+/* ================= NAVBAR ================= */
+
+.navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:80px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 80px;
+
+    background:rgba(0,0,0,.35);
+    backdrop-filter:blur(12px);
+
+    z-index:999;
+}
+
+.logo{
+
+    font-size:35px;
+
+    font-weight:700;
+
+    color:#ff7a00;
+
+}
+
+.navbar ul{
+
+display:flex;
+
+list-style:none;
+
+gap:40px;
+
+}
+
+.navbar a{
+
+text-decoration:none;
+
+color:white;
+
+font-size:18px;
+
+transition:.3s;
+
+}
+
+.navbar a:hover{
+
+color:#ff7a00;
+
+}
