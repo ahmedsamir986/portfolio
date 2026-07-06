@@ -462,3 +462,92 @@ box-shadow:0 15px 30px rgba(255,122,0,.35);
     color:#ddd;
 
 }
+/* ================= EXPERIENCE ================= */
+
+.experience{
+
+    padding:100px 10%;
+
+    background:#111;
+
+}
+
+.experience h2{
+
+    text-align:center;
+
+    color:#ff7a00;
+
+    font-size:46px;
+
+    margin-bottom:60px;
+
+}
+
+.timeline{
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.timeline-item{
+
+    display:flex;
+
+    gap:30px;
+
+    margin-bottom:50px;
+
+}
+
+.year{
+
+    min-width:140px;
+
+    color:#ff7a00;
+
+    font-weight:700;
+
+    font-size:18px;
+
+}
+
+.content{
+
+    border-left:3px solid #ff7a00;
+
+    padding-left:25px;
+
+}
+
+.content h3{
+
+    margin-bottom:8px;
+
+}
+
+.content h4{
+
+    color:#ccc;
+
+    margin-bottom:15px;
+
+    font-weight:500;
+
+}
+
+.content ul{
+
+    padding-left:20px;
+
+}
+
+.content li{
+
+    margin-bottom:10px;
+
+    color:#ddd;
+
+}
