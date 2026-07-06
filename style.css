@@ -595,3 +595,84 @@ box-shadow:0 15px 30px rgba(255,122,0,.35);
     margin-bottom:10px;
     line-height:1.6;
 }
+/* ================= FOOTER ================= */
+
+.footer{
+
+    background:#0b0b0b;
+
+    padding:60px 10%;
+
+    text-align:center;
+
+}
+
+.footer h3{
+
+    color:#ff7a00;
+
+    font-size:30px;
+
+    margin-bottom:10px;
+
+}
+
+.footer p{
+
+    color:#aaa;
+
+    margin-bottom:20px;
+
+}
+
+.footer-links{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    margin-bottom:25px;
+
+}
+
+.footer-links a{
+
+    width:55px;
+
+    height:55px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:#222;
+
+    color:white;
+
+    font-size:22px;
+
+    transition:.3s;
+
+}
+
+.footer-links a:hover{
+
+    background:#ff7a00;
+
+    transform:translateY(-5px);
+
+}
+
+.copyright{
+
+    color:#666;
+
+    font-size:15px;
+
+}
