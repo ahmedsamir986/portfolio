@@ -385,3 +385,80 @@ box-shadow:0 15px 30px rgba(255,122,0,.35);
     color:#ddd;
     line-height:1.6;
 }
+/* ================= FEATURED PROJECT ================= */
+
+.featured-project{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:50px;
+
+    margin-bottom:80px;
+
+    flex-wrap:wrap;
+
+}
+
+.featured-project img{
+
+    flex:1;
+
+    min-width:320px;
+
+    width:100%;
+
+    border-radius:20px;
+
+}
+
+.featured-content{
+
+    flex:1;
+
+    min-width:320px;
+
+}
+
+.featured-content h3{
+
+    color:#ff7a00;
+
+    margin-bottom:10px;
+
+}
+
+.featured-content h2{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+}
+
+.featured-content p{
+
+    color:#ddd;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+
+}
+
+.featured-content ul{
+
+    list-style:none;
+
+    margin-bottom:30px;
+
+}
+
+.featured-content li{
+
+    margin:12px 0;
+
+    color:#ddd;
+
+}
