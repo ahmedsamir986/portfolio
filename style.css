@@ -741,3 +741,38 @@ box-shadow:0 15px 30px rgba(255,122,0,.35);
     color:#ddd;
 
 }
+/* ================= PROJECT BADGE ================= */
+
+.project-card{
+    position:relative;
+}
+
+.project-badge{
+
+    position:absolute;
+
+    top:15px;
+
+    right:15px;
+
+    background:#ff7a00;
+
+    color:white;
+
+    padding:8px 16px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+
+}
+
+.featured{
+
+    border:2px solid rgba(255,122,0,.35);
+
+}
