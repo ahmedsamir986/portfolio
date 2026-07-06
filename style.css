@@ -551,3 +551,47 @@ box-shadow:0 15px 30px rgba(255,122,0,.35);
     color:#ddd;
 
 }
+/* ================= EDUCATION ================= */
+
+.education{
+    padding:100px 10%;
+    background:#181818;
+}
+
+.education h2{
+    text-align:center;
+    color:#ff7a00;
+    font-size:46px;
+    margin-bottom:60px;
+}
+
+.edu-container{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.edu-card{
+    width:300px;
+    background:#222;
+    padding:30px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.edu-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(255,122,0,.3);
+}
+
+.edu-card h3{
+    color:#ff7a00;
+    margin-bottom:20px;
+}
+
+.edu-card p{
+    color:#ddd;
+    margin-bottom:10px;
+    line-height:1.6;
+}
