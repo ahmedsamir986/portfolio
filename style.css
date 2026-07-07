@@ -1200,3 +1200,76 @@ background:#fff;
 color:#ff7a00;
 
 }
+/*================ IMPACT ================*/
+
+.impact{
+
+padding:120px 8%;
+
+background:#181818;
+
+}
+
+.impact h2{
+
+text-align:center;
+
+font-size:48px;
+
+margin-bottom:60px;
+
+color:#ff7a00;
+
+}
+
+.impact-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+}
+
+.impact-card{
+
+background:#222;
+
+padding:35px;
+
+border-radius:18px;
+
+transition:.4s;
+
+border:1px solid #333;
+
+}
+
+.impact-card:hover{
+
+transform:translateY(-10px);
+
+border-color:#ff7a00;
+
+box-shadow:0 20px 40px rgba(255,122,0,.30);
+
+}
+
+.impact-card h3{
+
+margin-bottom:18px;
+
+color:#ff7a00;
+
+font-size:24px;
+
+}
+
+.impact-card p{
+
+line-height:1.8;
+
+color:#ccc;
+
+}
