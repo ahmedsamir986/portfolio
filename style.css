@@ -1694,3 +1694,16 @@ opacity:1;
 transform:translateY(0);
 
 }
+footer{
+
+padding:30px;
+
+background:#0d0d0d;
+
+text-align:center;
+
+color:#999;
+
+font-size:15px;
+
+}
