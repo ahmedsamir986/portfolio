@@ -1483,3 +1483,66 @@ color:#ddd;
 line-height:1.8;
 
 }
+/*================ ACHIEVEMENTS ================*/
+
+.achievements{
+
+padding:120px 8%;
+
+background:#111;
+
+}
+
+.achievement-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:30px;
+
+margin-top:60px;
+
+}
+
+.achievement-card{
+
+background:#1f1f1f;
+
+padding:40px;
+
+border-radius:18px;
+
+text-align:center;
+
+border:1px solid #333;
+
+transition:.3s;
+
+}
+
+.achievement-card:hover{
+
+transform:translateY(-10px);
+
+border-color:#ff7a00;
+
+}
+
+.achievement-card h3{
+
+font-size:48px;
+
+color:#ff7a00;
+
+margin-bottom:15px;
+
+}
+
+.achievement-card p{
+
+color:#ddd;
+
+font-size:18px;
+
+}
