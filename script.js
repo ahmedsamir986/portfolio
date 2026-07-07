@@ -1,18 +1,29 @@
-const buttons = document.querySelectorAll(".project-toggle");
+const counters = document.querySelectorAll(".stats h3");
 
-buttons.forEach(button => {
+counters.forEach(counter => {
 
-    button.addEventListener("click", () => {
+const target = counter.innerText.replace("+","").replace("%","");
 
-        const details = button.nextElementSibling;
+let count = 0;
 
-        details.classList.toggle("show");
+const update = ()=>{
 
-        button.textContent =
-            details.classList.contains("show")
-            ? "Hide Details"
-            : "View Project";
+count += Math.ceil(target/60);
 
-    });
+if(count >= target){
+
+counter.innerText = counter.dataset.text;
+
+}else{
+
+counter.innerText = count;
+
+requestAnimationFrame(update);
+
+}
+
+}
+
+update();
 
 });
