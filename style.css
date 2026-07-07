@@ -1590,3 +1590,38 @@ transition:.5s;
 transform:scale(1.08);
 
 }
+section h2{
+
+position:relative;
+
+display:inline-block;
+
+left:50%;
+
+transform:translateX(-50%);
+
+padding-bottom:15px;
+
+}
+
+section h2::after{
+
+content:"";
+
+position:absolute;
+
+left:50%;
+
+bottom:0;
+
+transform:translateX(-50%);
+
+width:90px;
+
+height:4px;
+
+background:#ff7a00;
+
+border-radius:10px;
+
+}
