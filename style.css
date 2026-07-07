@@ -954,3 +954,104 @@ box-shadow:0 15px 30px rgba(255,122,0,.35);
     font-size:18px;
 
 }
+/*================ PROFILE ================*/
+
+.profile{
+
+padding:120px 8%;
+
+background:#181818;
+
+}
+
+.profile .container{
+
+max-width:1200px;
+
+margin:auto;
+
+}
+
+.profile h2{
+
+font-size:46px;
+
+text-align:center;
+
+margin-bottom:35px;
+
+color:#ff7a00;
+
+}
+
+.profile-text{
+
+max-width:900px;
+
+margin:auto;
+
+text-align:center;
+
+font-size:21px;
+
+line-height:1.9;
+
+color:#d8d8d8;
+
+margin-bottom:70px;
+
+}
+
+.features{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+}
+
+.feature{
+
+background:#222;
+
+padding:35px;
+
+border-radius:18px;
+
+transition:.4s;
+
+border:1px solid #333;
+
+}
+
+.feature:hover{
+
+transform:translateY(-10px);
+
+border-color:#ff7a00;
+
+box-shadow:0 15px 40px rgba(255,122,0,.25);
+
+}
+
+.feature h3{
+
+color:#ff7a00;
+
+margin-bottom:18px;
+
+font-size:24px;
+
+}
+
+.feature p{
+
+color:#ccc;
+
+line-height:1.8;
+
+font-size:17px;
+
+}
