@@ -1670,3 +1670,10 @@ background:white;
 color:#ff7a00;
 
 }
+.navbar.scrolled{
+
+background:#111;
+
+box-shadow:0 5px 20px rgba(0,0,0,.35);
+
+}
