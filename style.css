@@ -132,6 +132,38 @@ flex-wrap:wrap;
 
 button{
 
+padding:16px 35px;
+
+border:none;
+
+border-radius:50px;
+
+background:#ff7a00;
+
+color:#fff;
+
+font-size:17px;
+
+font-weight:600;
+
+cursor:pointer;
+
+transition:.35s;
+
+}
+
+button:hover{
+
+background:#fff;
+
+color:#ff7a00;
+
+transform:translateY(-6px) scale(1.05);
+
+box-shadow:0 15px 35px rgba(255,122,0,.35);
+
+}
+
 width:220px;
 
 height:58px;
@@ -336,6 +368,7 @@ box-shadow:0 15px 30px rgba(255,122,0,.35);
 }
 
 .project-card{
+    overflow:hidden;
     width:340px;
     background:#222;
     border-radius:18px;
@@ -1544,5 +1577,16 @@ margin-bottom:15px;
 color:#ddd;
 
 font-size:18px;
+
+}
+.project-card img{
+
+transition:.5s;
+
+}
+
+.project-card:hover img{
+
+transform:scale(1.08);
 
 }
