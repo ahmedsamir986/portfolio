@@ -34,3 +34,24 @@ const nav=document.querySelector(".navbar");
 nav.classList.toggle("scrolled",window.scrollY>80);
 
 });
+const sections=document.querySelectorAll("section");
+
+const observer=new IntersectionObserver(entries=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.classList.add("show");
+
+}
+
+});
+
+},{threshold:.2});
+
+sections.forEach(section=>{
+
+observer.observe(section);
+
+});
