@@ -61,24 +61,33 @@ body{
 
 .hero{
 
-    height:100vh;
+    min-height:100vh;
 
     background:
-    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+    linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)),
     url("lobby.jpg");
 
     background-size:cover;
     background-position:center;
 
     display:flex;
+
     justify-content:center;
+
     align-items:center;
+
     text-align:center;
+
+    padding:120px 20px 80px;
+
 }
 
 .hero-content{
-    width:90%;
-    max-width:900px;
+
+    width:100%;
+
+    max-width:1000px;
+
 }
 
 .hero h1{
@@ -852,5 +861,96 @@ box-shadow:0 15px 30px rgba(255,122,0,.35);
 .project-gallery img:hover{
 
     transform:scale(1.05);
+
+}
+/* ================= HERO NEW ================= */
+
+.hero h5{
+
+    color:#ff7a00;
+
+    letter-spacing:4px;
+
+    font-size:16px;
+
+    margin-bottom:20px;
+
+}
+
+.hero h1{
+
+    font-size:72px;
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.hero h2{
+
+    font-size:36px;
+
+    margin-bottom:20px;
+
+    color:white;
+
+}
+
+.subtitle{
+
+    color:#ff7a00;
+
+    font-size:24px;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+}
+
+.description{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:#dddddd;
+
+    line-height:1.8;
+
+    font-size:20px;
+
+    margin-bottom:50px;
+
+}
+
+.stats{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:70px;
+
+    margin-top:80px;
+
+    flex-wrap:wrap;
+
+}
+
+.stats h3{
+
+    font-size:42px;
+
+    color:#ff7a00;
+
+}
+
+.stats span{
+
+    color:#ddd;
+
+    font-size:18px;
 
 }
