@@ -443,16 +443,15 @@ box-shadow:0 15px 30px rgba(255,122,0,.35);
 
 }
 
-.featured-project img{
-
+.featured-image{
     flex:1;
+    min-width:420px;
+}
 
-    min-width:320px;
-
+.featured-image img{
     width:100%;
-
     border-radius:20px;
-
+    display:block;
 }
 
 .featured-content{
@@ -502,6 +501,30 @@ box-shadow:0 15px 30px rgba(255,122,0,.35);
     margin:12px 0;
 
     color:#ddd;
+
+}
+.featured-image{
+    flex:1;
+    min-width:380px;
+}
+
+.featured-image img{
+    width:100%;
+    max-width:650px;
+    border-radius:20px;
+    display:block;
+}
+
+@media (max-width:900px){
+
+    .featured-project{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .featured-content ul{
+        padding:0;
+    }
 
 }
 /* ================= EXPERIENCE ================= */
