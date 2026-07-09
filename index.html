@@ -384,7 +384,7 @@ A premium residential development located in the Diplomatic Quarter, Riyadh, wit
 <li>🏗 Built-up Area: 38,000+ m²</li>
 </ul>
 
-<button class="btn project-toggle">
+<button class="btn" onclick="toggleGallery()">
     View Project
 </button>
       <div class="project-extra">
@@ -676,6 +676,17 @@ Architectural Site Engineer responsible for site execution, QA/QC inspections, f
 
 </footer>
   <script src="script.js"></script>
+  <script>
+function toggleGallery() {
+    const gallery = document.querySelector(".project-gallery");
+
+    if (gallery.style.display === "grid") {
+        gallery.style.display = "none";
+    } else {
+        gallery.style.display = "grid";
+    }
+}
+</script>
 </body>
 
 </html>
